@@ -1,2 +1,30 @@
 # Neverness-To-Everness-FPS-Unlocker-
-Framerate unlocker for Neverness To Everness (NTE)
+Framerate unlocker for Neverness To Everness (NTE) <br>
+Removes the FPS cap from the game, applying a user defiend cap instead. <br>
+This is done WITHOUT the usage of any sort of Frame "generation" technologies <br>
+
+
+## Installation <br>
+<br>
+Copy "version.dll" to: <br>
+"C:\Program Files\Neverness To Everness\Client\WindowsNoEditor\HT\Binaries\Win64"
+
+Optional:
+In the same directory create a file called, fps.txt and input a target FPS value. <br>
+if you do not create this file it will default to 9999
+
+
+## Uninstallation
+Literally just delete "version.dll" from the games directory. <br>
+
+
+# Build<br>
+Requires MSVC 2022 + CMake
+Open up Terminal <br>
+mkdir build && cd build <br>
+cmake .. -G "Visual Studio 17 2022" -A x64 <br>
+cmake --build . --config Release --target version_proxy <br>
+
+
+I have not been banned for the usage of this unlocker. <br>
+However it is still use at your own risk, I am not responsible for your account. 
