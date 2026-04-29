@@ -19,7 +19,7 @@ Literally just delete "version.dll" from the games directory. <br>
 
 
 # Build<br>
-Requires MSVC 2022 + CMake
+Requires MSVC 2022 + CMake<br>
 Open up Terminal <br>
 mkdir build && cd build <br>
 cmake .. -G "Visual Studio 17 2022" -A x64 <br>
