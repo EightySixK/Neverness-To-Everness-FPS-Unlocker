@@ -2,9 +2,7 @@
 Framerate unlocker for Neverness To Everness (NTE) <br>
 Removes the FPS cap from the game, applying a user defined cap instead. <br>
 This is done WITHOUT the usage of any sort of Frame "generation" technologies <br>
-
-# FIX FOR 1.08 COMING SOON. 
-
+Also now featuring the option to disable the forced mouse smoothing that was applied to the third person camera.
 
 ## Installation <br>
 <br>
@@ -12,8 +10,7 @@ Copy "version.dll" to: <br>
 "C:\Program Files\Neverness To Everness\Client\WindowsNoEditor\HT\Binaries\Win64"
 
 Optional:
-In the same directory create a file called, fps.txt and input a target FPS value. <br>
-if you do not create this file it will default to 9999
+In the same directory, download the version_config.ini from /bin/ to choose a custom cap and disable mouse smoothing. 
 
 
 ## Uninstallation
