@@ -1,4 +1,4 @@
-# Neverness-To-Everness-FPS-Unlocker
+# Neverness To Everness FPS Unlocker
 Framerate unlocker for Neverness To Everness (NTE) <br>
 Removes the FPS cap from the game, applying a user defined cap instead. <br>
 This is done WITHOUT the usage of any sort of Frame "generation" technologies <br>
